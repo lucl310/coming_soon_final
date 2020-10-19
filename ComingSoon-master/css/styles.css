@@ -1,0 +1,65 @@
+@font-face{
+	font-family: "custom font";
+	src: url(../assets/Font1.ttf);
+}
+body{
+	margin: 0px;
+	text-align: center;
+}
+.parallax{
+	background-image: url(../assets/Cyberpunk2077_Beautiful_and_deadly_RGB.jpg);
+	height: 500px;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+}
+.section{
+	text-align: center;
+	color: white;
+	width: 100%;
+	height: 50px;
+	background-color: grey;
+	display: flex;
+	flex-direction: row;
+	/*align-items: center;*/
+	justify-content: center;
+}
+.lorem{
+	text-align: center;
+	color: white;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	background-color: grey;
+}
+.image{
+	text-align: center;
+	color: white;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	background-color: grey;
+
+}
+#Title{
+	text-align: center;
+	color: white;
+	background-color: grey;
+}
+#NavBar{
+	text-align: center;
+	color: white;
+	background-color: grey;
+}
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+a{
+	text-decoration: none;
+	color: white;
+}
